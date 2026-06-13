@@ -1,4 +1,4 @@
-const palavras = ['COMPUTADOR', 'TECLADO', 'MONITOR'];
+const palavras = ['COMPUTADOR', 'TECLADO', 'MONITOR', 'MOUSE', 'PROGRAMACAO', 'JAVASCRIPT', 'PYTHON', 'JAVA', 'RUBY', 'PHP'];
 const palavra = palavras[Math.floor(Math.random() * palavras.length)];
 let exibida = Array(palavra.length).fill('_');
 let vidas = 6;
