@@ -8,6 +8,16 @@
 
 <body>
     <h1>Jogo da Forca (JS)</h1>
+    <div>
+        <label for="categoria">Categoria:</label>
+        <select id="categoria" onchange="reiniciar()">
+            <option value="Tecnologia">Tecnologia</option>
+            <option value="Hardware">Hardware</option>
+            <option value="Linguagens">Linguagens</option>
+        </select>
+        <button onclick="reiniciar()">Reiniciar</button>
+    </div>
+    <p id="categoriaAtual"></p>
     <p id="palavra"></p>
     <input id="letra" maxlength="1">
     <button onclick="tentar()">Tentar</button>
